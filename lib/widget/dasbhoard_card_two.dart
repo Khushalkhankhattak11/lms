@@ -23,7 +23,7 @@ class _DashbaordCardState extends State<DashbaordCardTwo> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(12.0),
+      padding: const EdgeInsets.all(10.0),
       child: Card(
         elevation: 5,
         child: Container(
@@ -39,7 +39,7 @@ class _DashbaordCardState extends State<DashbaordCardTwo> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(6.0),
                 child: Container(
                   alignment: Alignment.center,
                   width: 100,
@@ -73,7 +73,7 @@ class _DashbaordCardState extends State<DashbaordCardTwo> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(6.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -98,7 +98,7 @@ class _DashbaordCardState extends State<DashbaordCardTwo> {
                         children: [
                           Text(
                             "Lecturer: ",
-                            style: TextStyle(color: Colors.grey, fontSize: 14),
+                            style: TextStyle(color: Colors.grey, fontSize: 13),
                           ),
                           Text(
                             widget.name!,
